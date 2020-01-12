@@ -53,5 +53,15 @@ return [
             "url" => "ip",
             "title" => "Ip validering",
         ],
+        [
+            "text" => "weather",
+            "url" => "weather",
+            "title" => "weather",
+        ],
+        [
+            "text" => "API docs",
+            "url" => "docs",
+            "title" => "API docs",
+        ],
     ],
 ];

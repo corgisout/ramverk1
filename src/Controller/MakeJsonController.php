@@ -20,7 +20,7 @@ class MakeJsonController implements ContainerInjectableInterface
     public function indexAction() : array
     {
         $ip = $this->di->request->getGet("ip");
-        $ipvalidator = new \Anax\Model\ipValidation;
+        $ipvalidator = new \Anax\Model\IpValidation;
         $json = $ipvalidator->toJson($ip);
         return [$json];
     }

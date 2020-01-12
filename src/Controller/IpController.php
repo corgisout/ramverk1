@@ -34,6 +34,7 @@ class ipController implements ContainerInjectableInterface
      public function indexAction() : object
      {
          $page = $this->di->get("page");
+
          $ip = $this->di->request->getServer("REMOTE_ADDR");
          if (isset($_GET['submit'])) {
              $ip = $this->di->request->getGet("ip");

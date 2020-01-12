@@ -18,9 +18,9 @@ class IpValidation
                 $ipv = null;
             }
 
-            $details = json_decode(file_get_contents("http://api.ipstack.com/{$ip}?access_key=9e9f05f2e74673444b90a999a579ab3f"));
             if($ipv != null){
-                $domain = gethostbyaddr("80.217.191.97");
+                $details = json_decode(file_get_contents("http://api.ipstack.com/{$ip}?access_key=9e9f05f2e74673444b90a999a579ab3f"));
+                $domain = gethostbyaddr($ip);
             return [
                 "valid" => "valid IP",
                 "ip" => $ip,
