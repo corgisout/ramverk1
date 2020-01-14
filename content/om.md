@@ -1,31 +1,11 @@
----
-views:
-    kursrepo:
-        region: sidebar-right
-        template: anax/v2/block/default
-        data:
-            meta:
-                type: single
-                route: block/om-kursrepo
-
-    redovisa:
-        region: sidebar-right
-        template: anax/v2/block/default
-        data:
-            meta:
-                type: single
-                route: block/om-redovisa
----
-Om
+about
 =========================
 
-
-
-Skriv några kloka ord om kursen?
-
-jag tyckte om att jobba i anax när vi gjorde oophp kursen men hade lite
-svårt för controllers men hoppas det ska lösas i denna kurs.
-
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/anax.jpg?w=300 caption="en Anax trollslända"]
+this is my forum about my favorite dog breed corgis. i made
+this with focus on simplicity so anyone could use it. you
+can create questions that you then can either answer or comment.
+you can also comment on answers if you find them good or bad. the
+styling needs work right now but it seems like i dont have time for
+ that right now. but if the style dont bother you this is just
+a smiple forum for corgi lovers. You need a login to post and comment
+but you can view everything even if you're not logged in.
